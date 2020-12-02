@@ -1,0 +1,33 @@
+{
+  "name": "node-ltsn",
+  "version": "1.0.0",
+  "description": "CommandLine Tool for Node.js LTS",
+  "main": "index.js",
+  "bin": {
+    "ltsn": "bin/ltsn"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlphaIdea/node-ltsn.git"
+  },
+  "keywords": [
+    "Node.js",
+    "LTS"
+  ],
+  "author": "Vincent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlphaIdea/node-ltsn/issues"
+  },
+  "homepage": "https://github.com/AlphaIdea/node-ltsn#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "cli-color": "^2.0.0",
+    "cli-table": "^0.3.1",
+    "compare-versions": "^3.6.0",
+    "terminal-link": "^2.1.1"
+  }
+}
